@@ -24,5 +24,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_page_ACTION_TOKEN }}
+          github_token: ${{ secrets.GH_PAGE_ACTION_TOKEN }}
           publish_dir: ./docs/.vitepress/dist  # 构建后的文件夹路径，根据你的项目结构进行调整
