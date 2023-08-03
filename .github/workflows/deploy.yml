@@ -17,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Build VitePress
-        run: npm run build  # 运行 VitePress 构建命令
+        run: npm run docs:build  # 运行 VitePress 构建命令
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
